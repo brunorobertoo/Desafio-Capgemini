@@ -1,4 +1,4 @@
-exibirEscada(6);
+exibirEscada(10);
 
 function exibirEscada(linhas) {
 
