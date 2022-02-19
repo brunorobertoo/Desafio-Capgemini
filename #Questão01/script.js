@@ -1,7 +1,10 @@
-for(let linha = 1; linha <= 6; linha++){
-    let padrao = '';
-	for(let i = 1; i < linha; i++){
-	   padrao += '*';
+for (let linha = 1; linha <= 6; linha++) {
+	let padrao = '';
+	for (let j = 6 - linha; j >= 1; j--) {
+		padrao += ' ';
 	}
-    console.log(padrao)
+	for (let i = 0; i < linha; i++) {
+		padrao += '*';
+	}
+	console.log(padrao)
 }
