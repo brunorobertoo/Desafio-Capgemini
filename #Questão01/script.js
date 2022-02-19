@@ -1,16 +1,7 @@
-exibirEscada(10);
-
-function exibirEscada(linhas) {
-
-
-    for (let linha = 1; linha <= linha; linha++) {
-        let padrao = '';
-
-        for (let i = 0; i < linha; i++) {
-            padrao += '*';
-
-        }
-        console.log(padrao);
-    }
-
+for(let linha = 1; linha <= 7; linha++){
+    let padrao = '';
+	for(let i = 1; i < linha; i++){
+	   padrao += '*';
+	}
+    console.log(padrao)
 }
